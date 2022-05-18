@@ -1,0 +1,686 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	transition: 0.8s;
+	
+}
+  /*======================================================================================={ navbar }======================================================================================*/
+
+.fa-color.navbar-brand a{
+	color: #FFFFFF;
+}
+
+	.navbar 
+{
+	color:#FFF;
+	background-color:rgba(0,0,0,0.9)  ;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin: 10px;
+	
+}
+.navbar-nav a
+{
+	color: white;
+}
+
+.navbar-nav a:hover
+{
+	background: #fff;
+	border-radius: 12px;
+	color: #000;
+}
+.navbar-toggler-icon
+{
+	color: #fff;
+}
+.navtext{
+	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: #fff;
+}
+
+
+  /*======================================================================================={ navbar end }======================================================================================*/
+
+
+
+  /*======================================================================================={ landing_body }======================================================================================*/
+
+.landing_body
+{
+	height: 100vh;
+	width: 100%;
+	background-color: white;
+	background: url("img4.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+
+.my_text h1
+{
+	height: auto;
+	width: auto;
+	border: 2px solid white;
+	font-size: 20vw;
+	padding: 20px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-shadow: black 2px 2px 12px;
+	transform: translate(-50%,-50%);
+}
+
+.my_text h1::after
+{
+	content: "Hi i am Website Designer and Devloper";
+	font-size: 1vw;
+	color: rgb(53, 53, 53);
+	padding: 2px;
+	width: 200px;
+	display: block;
+	text-shadow:0px;
+	/* border: 2px solid black; */
+}
+
+
+  .icons_body 
+  {
+	  display: block;
+	  width: 24px;
+	  position: absolute;
+	  bottom: 20px;
+	  position: fixed;
+	  z-index: 100;
+	  /* color: white; */
+  }
+
+  .icons_body  a 
+  {
+	color: black;
+  }
+  .icons_body  a :hover
+  {
+	  color: white;
+  }
+/*======================================================================================={ landing_body end }======================================================================================*/
+
+
+  /*======================================================================================={ service_body }======================================================================================*/
+  .service_body
+  {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+  }
+
+  .service_body_text
+  {
+	  font-family: 'Dongle', sans-serif;
+  }
+  
+
+  .services-card
+  {
+	  width: 300px;
+	  height: 300px;
+	  max-height: 300px;
+	  justify-content: space-between;
+	  margin-left: 20px;
+  /*	background:rgba(0,0,0,0.7);*/
+	  margin: 30px;
+	  border-radius: 12px;
+	  transition: 0.5s;
+
+}
+
+.img-setting
+{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin-top: 20px;
+	background: #343a40;
+	color: white;
+	
+
+}
+
+.img-setting i
+
+{
+	margin: 15px;
+	font-size: 25px;
+	
+}
+.services-card:hover
+{
+	background-color:#343a40;
+	color: white;
+}
+
+
+
+
+.services-card h6
+{
+	font-size: 25px;
+	margin: 10px 50px 5px;
+	align-items: center;
+	padding: 8px;
+	/* color: rgba(213, 219, 219,0.5);*/
+}
+
+.services-card p
+{
+	font-size: 17px;
+	margin: 10px 20px 20px;
+	align-items: center;
+	padding: 3px;
+	/* color: rgba(213, 219, 219,0.5);*/
+}
+    /*===================================================================================={ service_body end }======================================================================================*/
+
+
+	/*======================================================================================={ card_body }========================================================================================*/
+.card_body
+{
+	height: 100vh;
+	width: 100%;
+	background-color: turquoise;
+
+}
+
+	/*====================================================================================={ card_body end}========================================================================================*/
+
+
+/*/================================================================================[ Adventure-text-end ]======================================================================================/*/
+.Adventure-me-img
+{
+	background: url("https://images.pexels.com/photos/1604141/pexels-photo-1604141.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-position: center;
+	background-size: cover;
+	width: 40vw;
+	height: 30vh;
+	border: 2px solid #f5b027;
+	border-bottom-left-radius: 60px;
+	border-top-right-radius:60px; 
+	min-width: 20vw;
+}
+
+.Adventure-me-img::after
+{
+	content: "Portfolio";
+	color: black;
+	margin: 5px;
+}
+
+.btn-Adventure
+{
+	width: 150px;
+	height: 40px;
+	float: left;
+	background: #000;
+	margin-left: 1px;
+	border-radius: 5px;
+	color: #fff;
+	border: 1.5px solid #f5b027 ;
+	margin-bottom: 10px;
+	
+}
+
+
+
+/*/===============================================================================[	Adventure-text-end ]=========================================================================================/*/
+
+
+
+
+/*/============================================================================[ helping_cards ]====================================================================================/*/
+
+.box{
+	/* flex-basis: 30%; */
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.box img
+{
+	width: 100%;
+}
+.info
+{
+	width: 85%;
+	padding: 12px 0;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 3px;
+	background: #607D8B;
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -50px;
+	margin-bottom: 10px;
+}
+
+.info h2{
+	font-weight: normal;
+
+}
+
+.info p{
+	font-size: 12px;
+	margin: 6px 0;
+}
+
+.icons
+{
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1s;
+}
+
+.box:hover .icons
+{
+	max-height: 100px;
+}
+.icons a
+{
+	font-size: 20px;
+	padding: 10px 8px;
+	cursor: pointer;
+	color: #fff;
+
+}
+
+.fa-instagram
+{
+	color: #DC0965;
+}
+
+.fa-facebook
+{
+	color: #2a71ff;
+}
+
+.fa-twitter
+{
+	color: #00B1CE;
+}
+
+
+
+/*/============================================================================[ helping_cards end ]====================================================================================/*/
+
+/*/============================================================================[ the room ]====================================================================================/*/
+
+.contact_body
+{
+	height: 100%;
+	width: 100%;
+	background-color: #fff ;
+	padding-bottom:2% ;
+}
+
+/* .contact_text
+{
+	position: absolute;
+	margin-top: 20%;
+	font-family: 'Dongle', sans-serif;
+	/* transform: translateY(-50%); 
+}
+
+.contact_text::after
+{
+	content: "feel free";
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	font-size: 2rem;
+}
+
+.contact_text h1{
+	font-size: 17rem;
+}
+*/
+
+.contact_box {
+	display: flex;
+	background-color: rgb(255, 255, 255);
+	margin-top: 10%;
+
+
+}
+.contact_left{
+	flex-basis: 50%;
+	padding: 40px 60px;
+	/* background: rgb(33, 229, 255); */
+}
+
+.contact_left h1{
+	font-family: 'Dongle', sans-serif;
+	font-size:12rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+
+
+.contact_right{
+	flex-basis: 50%;
+	padding: 40px;
+	/* background: #607D8B; */
+}
+
+/*/============================================================================[ the room end ]====================================================================================/*/
+
+
+/*/============================================================================[  register-form ]====================================================================================/*/
+.from
+{
+	color: black;
+	text-decoration: none;
+	font-size: 27px;
+}
+
+.register{
+    background:  -webkit-linear-gradient( #232526, #414345);
+    margin-top: 3%;
+    padding: 3%;
+	border-radius: 20px;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: 2px solid #df2563;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background:  #DD5E89;
+    font-weight: bold;
+    /* color: #000; */
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: rgba(184, 184, 184, 0.3);
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius:20px; */
+	border-radius: 20px;
+    
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+tr td:first-child{
+	padding-right: 40px;
+	font-size: 27px;
+}
+
+tr td{
+	padding-top: 50px;
+	font-size: 17px;
+}
+
+
+
+.contact
+{
+	
+	border: none;
+	border-bottom: 2px solid black;
+	width: 100%;
+	line-height: 60px;
+	outline: none;
+	background-color: transparent;
+	color: white;
+	
+}
+
+
+
+.login_btn
+{
+	width: 100%;
+	margin-top: 40px;
+	
+}
+/*/============================================================================[  register-form end ]====================================================================================/*/
+
+
+/*/=============================================================================[info_body ]====================================================================================/*/
+
+
+.info_body
+{
+	width: 100%;
+	height: 80vh;
+ 	background:url(1\ \(7\).jpg) ; 
+	/* background: url(https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.bg-border
+{
+	border: 4px solid white;
+	padding: 20px;
+	background-color: rgb(0, 0, 0,0.21);
+	backdrop-filter: blur(2px);
+}
+
+.round_img{
+	height: 100px;
+	width: 100px;
+	background: url(https://cdn.pixabay.com/photo/2017/02/20/11/57/boy-2082270_960_720.jpg);
+	border-radius: 50%;
+	background-size: cover; 
+	background-position: center;
+	border:5px solid white;
+	margin: 20px;
+}
+	
+
+/*/============================================================================[ info_body end ]====================================================================================/*/
+
+
+/*/============================================================================[ helping_cards ]====================================================================================/*/
+
+.helping_cards_background
+{
+	background:#fff;
+	width: 100%;
+
+}
+
+
+.helping_cards 
+{
+	width: 450px;
+	height: 300px;
+	/* border: 3px solid #000; */
+	border-radius: 12px;
+	position: relative;
+	overflow: hidden;
+	
+}
+  
+ .helping_cards img
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.helping_cards .overlay
+{
+	width: 100%;
+	height: 100%;
+/*	background: rgba(0,0,0,0.5);*/
+	background: rgba(255,255,255,1.00);
+	color: black;
+	position: absolute;
+	top:80%;
+	left: 0;
+	z-index: 1;
+	transition: .5s ;
+}
+
+.helping_cards:hover .overlay
+{
+	top: 0px;
+}
+  
+  .text 
+{
+	color: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text h1
+{
+	font-size: 20px;
+}
+
+.text p
+{
+	font-size: 15px;
+}
+
+.helping_cards_icons a
+
+{
+	font-size: 26px;
+	color: #000;
+	margin: 10px;
+}
+
+.helping_cards_icons .fa-instagram:hover 
+{
+	color: #DC0965;
+}
+
+.helping_cards_icons .fa-facebook:hover 
+{
+	color: #180080;
+}
+
+.helping_cards_icons .fa-twitter:hover 
+{
+	color: #00B1CE;
+}
+/*/============================================================================[ helping_cards end ]====================================================================================/*/
+
+/*/============================================================================[text box ]====================================================================================/*/
+.text-bg
+{
+	height: 70vh;
+	width: 100%;
+	background-color: white;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.text_bg_box
+{
+	position: relative;
+	background-color:#CBD9D4;
+	height:555px;
+	width: 40%;
+	display: flex;
+	float: right;
+	align-items: center;
+	justify-content: center;
+	margin-right: 9%;
+	
+}
+
+.text_bg p::before
+{
+	content: "Thought";
+	font-size: 1vw;
+	color:#b2dfcf;
+	padding: 2px;
+	width: 200px;
+	display: block;
+	font-size: 26px;
+	font-weight: 700;
+
+}
+
+
+.text_bg p
+{
+	position: absolute;
+	width: 420px;
+	padding: 12px;
+	margin-left: 19%;
+	margin-top: 3%;
+	border: 2px solid #CBD9D4 ;
+	/* border: none;
+	border-left: 2px solid #CBD9D4;
+	border-bottom: 2px solid #CBD9D4; */
+	font-weight: 300;
+	font-size: 21px;
+}
+/*/============================================================================[ text box end ]====================================================================================/*/
+
+/*/============================================================================[ text box end ]====================================================================================/*/
+
+.Title_here h1
+{
+	margin-top: 0px;
+	width: 100px;
+	/* border: 2px solid black; */
+	font-size: 90px;
+	font-weight: bold;
+}
+/*/============================================================================[ text box end ]====================================================================================/*/
+
+
+.fotter
+{
+	height: 50vh;
+	width: 100%;
+	background-color: turquoise;
+}
